@@ -24,7 +24,7 @@ header {
     background-color: #222;
 }
 
-h2{
+h2 {
     font-size: 24px;
     line-height: 33px;
 }
@@ -61,36 +61,10 @@ h2{
     height: 500px;
     box-sizing: border-box;
     background-color: #222;
-}    
-
-.container-text{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    position: relative;
-    text-align: center;
 }
 
-.title-v2-center{
-    padding-bottom: 0px;
-    text-align: center;
-}
-
-.space-text{
-    padding-top: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.bottom-spec{
-    border-top: 5px solid #555;
-    width: auto;
-    height: 500px;
-    background-color: #333;
-    text-align: center;
-}
-
-.container{
-    width: 1170px;
+.container {
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -98,8 +72,33 @@ h2{
     display: flex;
 }
 
+.container-text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    text-align: center;
+}
 
-.menu{
+.title-v2-center {
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.space-text {
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.bottom-spec {
+    border-top: 5px solid #555;
+    width: auto;
+    height: 500px;
+    background-color: #333;
+    text-align: center;
+}
+
+.menu {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -109,25 +108,26 @@ h2{
     padding: 10px 10%;
 }
 
-.nav_workbook_list{
+/* Workbook.html Using this Part */
+
+.nav_workbook_list {
     list-style: none;
 }
 
-.nav_workbook_list li{
+.nav_workbook_list li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav_workbook_list li a{
+.nav_workbook_list li a {
     transition: all 0.3s ease 0s;
 }
 
-.nav_workbook_list li a:hover{
+.nav_workbook_list li a:hover {
     color: #0088a9
 }
 
-
-.no_print{
+.no_print {
     width: 100%;
     height: 100px;
     position: relative;
@@ -136,14 +136,14 @@ h2{
     padding: 10px 10%;
 }
 
-.no_print p{
+.no_print p {
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
     color: gray;
 }
 
-.workbook_table{
+.workbook_table {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -151,4 +151,17 @@ h2{
     display: flex;
     align-items: center;
     padding: 10px 10%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    border: 1px solid darkgray;
 }
